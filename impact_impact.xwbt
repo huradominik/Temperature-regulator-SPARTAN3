@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=H:\RegTemp\Regulatortemperatury\impact.xsl
+OUTFILE=H:\RegTemp\Regulatortemperatury\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=H:\RegTemp\Regulatortemperatury
+LICENSE=iMPACT
+USER_INFO=iMPACT

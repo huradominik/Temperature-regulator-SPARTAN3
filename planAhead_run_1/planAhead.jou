@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Jan 23 20:58:23 2017
+# Process ID: 2936
+# Log file: C:/Users/Nadlesnik/Desktop/RegTemp/Regulatortemperatury/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Nadlesnik/Desktop/RegTemp/Regulatortemperatury/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Nadlesnik/Desktop/RegTemp/Regulatortemperatury/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {WE2[7]}]]
+set_property package_pin "" [get_ports [list  {WE2[6]}]]
+set_property package_pin "" [get_ports [list  {WE2[5]}]]
+set_property package_pin "" [get_ports [list  {WE2[4]}]]
+set_property package_pin "" [get_ports [list  {WE2[3]}]]
+set_property package_pin "" [get_ports [list  {WE2[2]}]]
+set_property package_pin "" [get_ports [list  {WE2[1]}]]
+set_property package_pin "" [get_ports [list  {WE2[0]}]]
+startgroup
+set_property package_pin K13 [get_ports {WE1[7]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {WE1[6]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {WE1[5]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {WE1[4]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {WE1[3]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {WE1[2]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {WE1[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {WE1[0]}]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports {WE2[7]}]
+endgroup
+startgroup
+set_property package_pin A8 [get_ports {WE2[6]}]
+endgroup
+startgroup
+set_property package_pin B10 [get_ports {WE2[5]}]
+endgroup
+startgroup
+set_property package_pin B11 [get_ports {WE2[4]}]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports {WE2[3]}]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports {WE2[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {WE2[1]}]]
+startgroup
+set_property package_pin A9 [get_ports {WE2[0]}]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports {WE2[1]}]
+endgroup
+startgroup
+set_property package_pin B14 [get_ports CLKwy]
+endgroup
+save_constraints

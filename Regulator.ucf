@@ -1,0 +1,38 @@
+
+
+NET "WY[0]" LOC = D14;
+NET "WY[1]" LOC = G14;
+NET "an" LOC = E13;
+NET "clk" LOC = T9;
+NET "clr" LOC = L14;
+NET "SA" LOC = E14;
+NET "SB" LOC = G13;
+NET "SC" LOC = N15;
+NET "SD" LOC = P15;
+NET "SE" LOC = R16;
+NET "SF" LOC = F13;
+NET "SG" LOC = N16;
+
+
+NET "WY[2]" LOC = F14;
+NET "grzalka" LOC = K12;
+
+# PlanAhead Generated physical constraints 
+
+NET "WE1[7]" LOC = K13;
+NET "WE1[6]" LOC = K14;
+NET "WE1[5]" LOC = J13;
+NET "WE1[4]" LOC = J14;
+NET "WE1[3]" LOC = H13;
+NET "WE1[2]" LOC = H14;
+NET "WE1[1]" LOC = G12;
+NET "WE1[0]" LOC = F12;
+NET "WE2[7]" LOC = A7;
+NET "WE2[6]" LOC = A8;
+NET "WE2[5]" LOC = B10;
+NET "WE2[4]" LOC = B11;
+NET "WE2[3]" LOC = A12;
+NET "WE2[2]" LOC = A13;
+NET "WE2[0]" LOC = A9;
+NET "WE2[1]" LOC = B8;
+NET "CLKwy" LOC = B14;

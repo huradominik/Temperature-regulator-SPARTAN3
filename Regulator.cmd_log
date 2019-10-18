@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Nadlesnik/Desktop/RegTemp/Regulatortemperatury/Regulator.xst" -ofn "C:/Users/Nadlesnik/Desktop/RegTemp/Regulatortemperatury/Regulator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Regulator.ucf -p xc3s1000-ft256-4 Regulator.ngc Regulator.ngd  
+map -intstyle ise -p xc3s1000-ft256-4 -cm area -ir off -pr off -c 100 -o Regulator_map.ncd Regulator.ngd Regulator.pcf 
+par -w -intstyle ise -ol high -t 1 Regulator_map.ncd Regulator.ncd Regulator.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Regulator.twx Regulator.ncd -o Regulator.twr Regulator.pcf -ucf Regulator.ucf 
+bitgen -intstyle ise -f Regulator.ut Regulator.ncd 

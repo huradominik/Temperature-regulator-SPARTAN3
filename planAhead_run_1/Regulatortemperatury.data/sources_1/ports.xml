@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="WE1">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="WE2">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="WY">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="clk" Dir="IN"/>
+		<Port Id="SA" Dir="OUT"/>
+		<Port Id="SB" Dir="OUT"/>
+		<Port Id="SC" Dir="OUT"/>
+		<Port Id="SD" Dir="OUT"/>
+		<Port Id="SE" Dir="OUT"/>
+		<Port Id="SF" Dir="OUT"/>
+		<Port Id="SG" Dir="OUT"/>
+		<Port Id="grzalka" Dir="OUT"/>
+		<Port Id="clr" Dir="IN"/>
+		<Port Id="an" Dir="OUT"/>
+		<Port Id="CLKwy" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Nadlesnik\Desktop\RegTemp\Regulatortemperatury\Regulator.ncd
+OUTFILE=C:\Users\Nadlesnik\Desktop\RegTemp\Regulatortemperatury\Regulator.bit
+FAMILY=Spartan3
+PART=xc3s1000-4ft256
+WORKINGDIR=C:\Users\Nadlesnik\Desktop\RegTemp\Regulatortemperatury
+LICENSE=WebPack
+USER_INFO=211293959_0_0_452

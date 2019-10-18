@@ -1,0 +1,14 @@
+MO multiplexser NULL multiplexser.v vlg0A/multiplexser.bin 1485201495
+MO dioda NULL dioda.v vlg15/dioda.bin 1485201495
+MO Regulator NULL Regulator.v vlg25/_regulator.bin 1485201495
+MO transkoderADC NULL transkoderADC.v vlg09/transkoder_a_d_c.bin 1485201495
+MO komparator NULL komparator.v vlg14/komparator.bin 1485201495
+MO NOT NULL NOT.v vlg7D/_n_o_t.bin 1485201495
+MO wyswietlacz NULL wyswietlacz.v vlg66/wyswietlacz.bin 1485201495
+MO preskaler NULL preskaler.v vlg65/preskaler.bin 1485201495
+MO transkoder NULL transkoder.v vlg4D/transkoder.bin 1485201495
+MO AND NULL AND.v vlg23/_a_n_d.bin 1485201495
+MO XOR NULL XOR.v vlg75/_x_o_r.bin 1485201495
+MO rej0 NULL rej0.v vlg49/rej0.bin 1485201495
+MO rej8 NULL rej8.v vlg51/rej8.bin 1485201495
+MO preskaler_ADC NULL preskaler_ADC.v vlg68/preskaler___a_d_c.bin 1485201495
